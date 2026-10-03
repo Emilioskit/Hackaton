@@ -11,7 +11,7 @@ from .perfil import Perfil, pendientes
 from .prompts import INSTRUCCIONES
 from .ranking import ranking_zonas
 
-MODELO = os.getenv("HIRIA_MODELO", "anthropic:claude-sonnet-5-5")
+MODELO = os.getenv("HIRIA_MODELO", "groq:openai/gpt-oss-120b")
 
 agente = Agent(
     MODELO,
