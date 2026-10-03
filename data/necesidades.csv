@@ -1,0 +1,22 @@
+codigo,pregunta,opcion,esenciales,servicios_nota,pesos,fuente_pesos,nota
+base,(sin perfil),Pesos por defecto,supermercado;farmacia;parada_bus;parque,supermercado;farmacia;centro_salud;hospital;parada_bus;parque;hosteleria;biblioteca;museo;instalacion_deportiva,movilidad:30.8;compra:17.1;salud:9.575;ocio:9.575;cultura:9.575;verde:9.575;deporte:9.575,"Encuesta de Movilidad 2021 (Gobierno Vasco), tablas 3.3/3.8/3.11/3.15, Gipuzkoa; salud con piso = un eje de ocio (criterio)",Sin perfil puntúan los 10 servicios universales
+1a,¿Quién vivirá contigo?,Solo o en pareja,,,,,Sin cambios
+1b,¿Quién vivirá contigo?,Hijos de 0 a 5 años,escuela_infantil;parque_infantil,escuela_infantil;parque_infantil;centro_salud,educacion:32.7;salud:19.15;verde:19.15,"Criterio: educación ×3, salud ×2 (pediatría), verde ×2",
+1c,¿Quién vivirá contigo?,Hijos de 6 a 12 años,primaria;parque_infantil,primaria;parque_infantil;instalacion_deportiva,educacion:32.7;verde:19.15;deporte:19.15,"Criterio: educación ×3, verde ×2, deporte ×2",
+1d,¿Quién vivirá contigo?,Hijos de 13 a 18 años,secundaria,secundaria;instalacion_deportiva,educacion:21.8;deporte:19.15,"Criterio: educación ×2, deporte ×2",
+1e,¿Quién vivirá contigo?,Una persona mayor,centro_salud,centro_salud;hospital;hosteleria,movilidad:15.1;compra:23.9;salud:19.15;ocio:14.125;cultura:14.125;verde:14.125;deporte:14.125,"Encuesta de Movilidad 2021 (Gobierno Vasco), tablas 3.3/3.8/3.11/3.15, 65 y más años; salud = 2× piso (criterio)",
+2a,¿Cómo te mueves?,A pie y en transporte público,,,,,La base ya pondera movilidad con los viajes en transporte público
+2b,¿Cómo te mueves?,En bici,aparcabicis;dbizi,aparcabicis;dbizi,,Criterio,
+2c,¿Cómo te mueves?,En coche,,parking,,Criterio,Parking puntúa pero no es esencial (solo hay 26 en los datos)
+3a,¿A qué te dedicas?,Estudio,universidad;biblioteca,universidad;biblioteca,educacion:32.7,Criterio: educación ×3 (la encuesta mezcla escolares y universitarios),
+3b,¿A qué te dedicas?,Trabajo fuera de casa,,,movilidad:47.6;compra:15.0;salud:9.575;ocio:7.600;cultura:7.600;verde:7.600;deporte:7.600,"Encuesta de Movilidad 2021 (Gobierno Vasco), tablas 3.3/3.8/3.11/3.15, personas ocupadas; salud con piso",
+3c,¿A qué te dedicas?,Teletrabajo,,hosteleria;parque,ocio:19.15;verde:19.15,"Criterio: ocio ×2, verde ×2",
+3d,¿A qué te dedicas?,Jubilado/a,centro_salud,centro_salud;hospital;hosteleria,movilidad:15.1;compra:23.9;salud:19.15;ocio:14.125;cultura:14.125;verde:14.125;deporte:14.125,"Encuesta de Movilidad 2021 (Gobierno Vasco), tablas 3.3/3.8/3.11/3.15, 65 y más años; salud = 2× piso (criterio)",Igual que 1e
+3e,¿A qué te dedicas?,Otro,,,,,Sin cambios
+4a,¿Tienes mascota?,Sí,,veterinario,mascota:19.15;verde:19.15,"Criterio: mascota ×2, verde ×2",Veterinario puntúa pero no es esencial
+4b,¿Tienes mascota?,No,,,,,Sin cambios
+5a,¿Qué valoras más?,Vida social y ocio,hosteleria,hosteleria,ocio:28.724999999999998,Criterio: ocio ×3,
+5b,¿Qué valoras más?,Deporte,instalacion_deportiva,instalacion_deportiva;gimnasio,deporte:28.724999999999998,Criterio: deporte ×3,
+5c,¿Qué valoras más?,Playa,playa,playa,verde:28.724999999999998,Criterio: verde ×3,
+5d,¿Qué valoras más?,Cultura,biblioteca,biblioteca;museo,cultura:28.724999999999998,Criterio: cultura ×3,Museo no es esencial (solo 9 en los datos)
+5e,¿Qué valoras más?,Tranquilidad,,,,,Sin datos de ruido: el agente debe decir que no puede medirlo

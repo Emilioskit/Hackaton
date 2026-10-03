@@ -1,0 +1,23 @@
+servicio,nombre_es,eje,limite_m,universal,esencial_general,categorias_origen,fuente_limite
+supermercado,Supermercado o tienda de alimentación,compra,300,1,1,convenience;supermercados_locales;hipermercados,"Comercio cotidiano 300 m (Ind. 21, Sist. indicadores ciudades grandes y medianas)"
+farmacia,Farmacia,salud,300,1,1,farmacia,"Proximidad cotidiana 300 m (mismo nivel que comercio, criterio)"
+parada_bus,Parada de bus,movilidad,300,1,1,interurban;bus_osm,Parada bus urbano 300 m (Ind. 12)
+parque,Parque o zona verde,verde,300,1,1,parks,Verde 200-750 m según tamaño (Ind. 27); 300 m regla 3-30-300
+centro_salud,Centro de salud,salud,600,1,0,centros_salud,Equipamientos básicos 600 m (Ind. 10)
+hospital,Hospital,salud,2400,1,0,hospital_con_barrio,30 min a pie (Walk Score da 0 puntos a partir de 30 min)
+hosteleria,"Bares, cafés y restaurantes",ocio,300,1,0,bares;restaurantes;cafe,Proximidad cotidiana 300 m (criterio)
+biblioteca,Biblioteca,cultura,600,1,0,biblioteca,Equipamientos básicos 600 m (Ind. 10)
+museo,Museo,cultura,1200,1,0,museo,15 min a pie (criterio)
+instalacion_deportiva,Instalación deportiva,deporte,600,1,0,instalaciones_deportivas,Equipamientos básicos 600 m (Ind. 10)
+gimnasio,Gimnasio,deporte,600,0,0,gym,Equipamientos básicos 600 m (Ind. 10)
+playa,Playa,verde,1200,0,0,playas,15 min a pie (criterio)
+parque_infantil,Parque infantil,verde,300,0,0,playground,Proximidad cotidiana 300 m (criterio)
+dbizi,Estación Dbizi,movilidad,300,0,0,dbizi,Red ciclista 300 m (Ind. 12)
+aparcabicis,Aparcabicis,movilidad,300,0,0,bike_parking,"Ind. 14 pide 100 m; se usa 300 m (criterio, pocos datos)"
+parking,Parking,movilidad,600,0,0,parking,Equipamientos básicos 600 m (criterio)
+escuela_infantil,Escuela infantil o colegio con infantil,educacion,600,0,0,colegios:infantil,Equipamientos básicos 600 m (Ind. 10)
+primaria,Colegio de primaria,educacion,600,0,0,colegios:primaria,Equipamientos básicos 600 m (Ind. 10)
+secundaria,Instituto o colegio de secundaria,educacion,600,0,0,colegios:secundaria,Equipamientos básicos 600 m (Ind. 10)
+universidad,Universidad (centros con docencia),educacion,1200,0,0,universidad,15 min a pie (criterio)
+veterinario,Veterinario,mascota,600,0,0,veterinario,Equipamientos básicos 600 m (criterio)
+residencia,Residencia de mayores,cuidados,600,0,0,nursing,Equipamientos básicos 600 m (criterio); no la activa ninguna respuesta en v1
